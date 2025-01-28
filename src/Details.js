@@ -146,7 +146,7 @@ export const projectDetails = [
     title: "superrare",
     image: projectImage2,
     description: `At SuperRare, we believe that art is a powerful medium for expression and connection. Founded in 2018, our platform is dedicated to showcasing and selling unique digital artworks as non-fungible tokens (NFTs) on the blockchain.`,
-    techstack: "REC721, React, Node.js"
+    techstack: "ERC721, React, Node.js"
   },
   {
     title: "donwoodford",
