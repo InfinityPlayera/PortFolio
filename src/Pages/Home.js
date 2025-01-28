@@ -58,7 +58,7 @@ function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `/assets/resume/Sai_Uno_Resume.pdf`; // Use PUBLIC_URL to access static files
+    link.href = `src/assets/resume/Sai_Uno_Resume.pdf`; // Use PUBLIC_URL to access static files
     link.download = 'resume.pdf'; // The name the file will be downloaded as
     document.body.appendChild(link);
     link.click();
