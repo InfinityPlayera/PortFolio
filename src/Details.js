@@ -177,5 +177,5 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "SoftengSkill@.com",
+  email: "SoftengSkill@gmail.com",
 };
