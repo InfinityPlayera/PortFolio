@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import resumePDF from '../assets/resume/Sai_Uno_Resume.pdf';
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -58,7 +59,7 @@ function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `src/assets/resume/Sai_Uno_Resume.pdf`; // Use PUBLIC_URL to access static files
+    link.href = resumePDF; // Use PUBLIC_URL to access static files
     link.download = 'resume.pdf'; // The name the file will be downloaded as
     document.body.appendChild(link);
     link.click();
